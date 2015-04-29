@@ -35,3 +35,9 @@ Entire workflow is iterative:
  *   REVIEW: mean, variance, correlation, line of best fit */
 
 Datasets with similar statistical characteristics aren't necessarily similar visually.
+
+=== Lab: Git(Hub) and Python ===
+Git(Hub) Concepts:
+* Forking (done with UI): creating a copy of a master repository in your own account
+* Cloning (git clone): creating the pipeline between remote repository and local repository
+
