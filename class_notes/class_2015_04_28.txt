@@ -38,6 +38,6 @@ Datasets with similar statistical characteristics aren't necessarily similar vis
 
 === Lab: Git(Hub) and Python ===
 Git(Hub) Concepts:
-* Forking (done with UI): creating a copy of a master repository in your own account
+* Forking (only done with UI, unique to GitHub): creating a copy of a master repository in your own account
 * Cloning (git clone): creating the pipeline between remote repository and local repository
 
