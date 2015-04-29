@@ -14,6 +14,7 @@ Today's Foci:
 * Introductions
 * What is Data Science?
 * Data Mining Workflow
+* Visualizations as a Medium
 * GitHub
 * Python
 
@@ -29,3 +30,8 @@ Entire workflow is iterative:
 * Represent + Refine (Graphic Design)
 * Interact (HCI)
 
+=== Visualizations as a Medium ===
+/* TODO(jaydelatorre): 
+ *   REVIEW: mean, variance, correlation, line of best fit */
+
+Datasets with similar statistical characteristics aren't necessarily similar visually.
