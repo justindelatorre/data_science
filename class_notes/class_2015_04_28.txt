@@ -1,0 +1,31 @@
+GENERAL LOGISTICS:
+Open Office Hours (for GA Office):
+* Monday - Friday: 9:00am - 10:00pm
+* Weekends: 10:00am - 6:00pm
+
+Alex's Office Hours (TA)
+* Sunday: 2:00pm - 6:00pm
+
+David's Office Hours (TA)
+* Before every class starting at 4:00pm
+
+CLASS NOTES:
+Today's Foci:
+* Introductions
+* What is Data Science?
+* Data Mining Workflow
+* GitHub
+* Python
+
+=== What is Data Science? ===
+Hacking Skills + Expertise + Mathematics and Statistics + Communication Skills
+
+"Better programmer than most statisticians and better statisticians than most programmers."
+
+=== Data Mining Workflow ===
+Entire workflow is iterative:
+* Acquire + Parse (Computer Science)
+* Filter + Mine (Mathematics)
+* Represent + Refine (Graphic Design)
+* Interact (HCI)
+
