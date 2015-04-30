@@ -31,8 +31,6 @@ Entire workflow is iterative:
 * Interact (HCI)
 
 === Visualizations as a Medium ===
-/* TODO(justindelatorre): 
- *   REVIEW: mean, variance, correlation, line of best fit */
 * Mean (expected value): average of all values in a data set
 * Variance: measures how far a set of numbers is spread out
 * Correlation (dependence): any statistical relationship between two random variables or two sets of data
