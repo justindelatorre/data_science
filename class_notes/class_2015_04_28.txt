@@ -43,9 +43,6 @@ Datasets with similar statistical characteristics aren't necessarily similar vis
 Git(Hub) Concepts:
 * Forking (only done with UI, unique to GitHub): creating a copy of a master repository in your own account
 * Cloning (git clone): creating the pipeline between remote repository and local repository
-* Fetching (git fetch): applies upstream changes since last fetch from original repository
-* Merging (git merge): attempts to push downstream changes to upstream branch
+* Fetching (git fetch): extracts changes from original repository
+* Merging (git merge): applies extracted changes from prior git fetch to current branch
 * Pulling (git pull): automatically fetches and merges from original repository
-
-/* TODO(justindelatorre):
- * Clarify differences between git fetch + git merge and git pull */
