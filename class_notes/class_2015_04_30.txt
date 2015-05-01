@@ -26,3 +26,19 @@ Learning is not about memorizing and being able to recall; it is about generaliz
 
 Supervised learning: goal is to learn mapping from given inputs x to outputs y, given a labeled set of input-output pairs
  * In other words, for any input x, what would output y be?
+ * The machine is given as much information as possible; a model is then built, and predictions can be made from that model
+
+/* TODO(jaydelatorre):
+ *   LEARN
+ *   - Featurespace */
+
+ * Classification: labels are given to specific candidate data
+ * Regression: variables are dependent and discrete
+
+Unsupervised learning: goal is to learn interesting patterns and structure in data given only inputs
+ * No label information is given at all > Trying to establish baseline patterns
+
+ * Supervised: making predictions
+ * Unsupervised: extracting structure
+
+
