@@ -30,7 +30,7 @@ Supervised learning: goal is to learn mapping from given inputs x to outputs y, 
 
 /* TODO(jaydelatorre):
  *   LEARN
- *   - Featurespace */
+ *   - Featurespace: the space where data live; each point in this space is called a record */
 
  * Classification: labels are given to specific candidate data
  * Regression: variables are dependent and discrete
@@ -38,7 +38,17 @@ Supervised learning: goal is to learn mapping from given inputs x to outputs y, 
 Unsupervised learning: goal is to learn interesting patterns and structure in data given only inputs
  * No label information is given at all > Trying to establish baseline patterns
 
- * Supervised: making predictions
- * Unsupervised: extracting structure
+ * Supervised: making predictions (generalization)
+ * Unsupervised: extracting structure (representation)
+
+Two Types of Data:
+ * Continuous (quantitative)
+ * Categorical Data (qualitative)
+
+			CONTINUOUS		CATEGORICAL
+ SUPERVISED		regression		classification
+ UNSUPERVISED		dimension reduction	clustering
 
 
+
+=== Addendum (Additional and Follow-up Research) ===
