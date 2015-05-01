@@ -1,0 +1,24 @@
+CLASS NOTES:
+Today's Foci:
+* What is Machine Learning?
+* Machine Learning Problems?
+* IPython Notebook Introduction
+
+What is Big Data?
+* O(n^2) algorithm feasible: small data
+* Fits on one machine: medium data
+* Doesn't fit on one machine: big data
+
+/* TODO(jaydelatorre):
+ *   LEARN: 
+ *   - What is O(n^2) in computer science?: http://en.wikipedia.org/wiki/Big_O_notation
+ *   - Pairwise similarity: http://en.wikipedia.org/wiki/Pairwise_comparison */
+
+=== What is machine learning? ===
+Branch of AI that is about the construction and study of systems the can learn from the data
+
+Deals with "representation" and "generalization"
+ * representation: extracting structure from the data > "What does the data look like?" (i.e., social graphs)
+ * generalization: making predications from the data > "What does the data mean?" (i.e., forecasting)
+
+
