@@ -1,7 +1,7 @@
 CLASS NOTES:
 Today's Foci:
 * What is Machine Learning?
-* Machine Learning Problems?
+* Machine Learning Problems
 * IPython Notebook Introduction
 
 What is Big Data?
@@ -14,11 +14,15 @@ What is Big Data?
  *   - What is O(n^2) in computer science?: http://en.wikipedia.org/wiki/Big_O_notation
  *   - Pairwise similarity: http://en.wikipedia.org/wiki/Pairwise_comparison */
 
-=== What is machine learning? ===
+=== What is Machine Learning? ===
 Branch of AI that is about the construction and study of systems the can learn from the data
 
 Deals with "representation" and "generalization"
  * representation: extracting structure from the data > "What does the data look like?" (i.e., social graphs)
  * generalization: making predications from the data > "What does the data mean?" (i.e., forecasting)
 
+=== Machine Learning Problems ===
+Learning is not about memorizing and being able to recall; it is about generalizing the conclusions to previously unseen examples.
 
+Supervised learning: goal is to learn mapping from given inputs x to outputs y, given a labeled set of input-output pairs
+ * In other words, for any input x, what would output y be?
