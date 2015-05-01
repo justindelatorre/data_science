@@ -49,6 +49,15 @@ Two Types of Data:
  SUPERVISED		regression		classification
  UNSUPERVISED		dimension reduction	clustering
 
+/* TODO(jaydelatorre):
+ *   CLARIFY
+ *   - Why is dimension reduction continuous and not categorical? */
+
+What is the goal of machine learning?
+ * The goal is determined by the type of problem
+
+How do you determine the right approach?
+ * The right approach is determined by the desired solution
 
 
 === Addendum (Additional and Follow-up Research) ===
