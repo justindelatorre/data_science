@@ -6,4 +6,10 @@ Today's Foci:
 * Pandas (Python for Data Analysis)
 * Mining Twitter via API
 
+=== Where does the data come from? ===
+* Data Retrieval > Data ETL and Aggregation > Data Visualization > Machine Learning
 
+JSON (JavaScript Object Notation) is a lightweight data-interchange formate - a string.
+* Can be passed between applications
+* Easy for machines to parse and generate
+* Passed through applications as strings and converted into native objects per language
