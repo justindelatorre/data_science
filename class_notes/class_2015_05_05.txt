@@ -1,0 +1,9 @@
+CLASS NOTES:
+Today's Foci:
+* Data Retrieval
+* ETL Introduction
+* Visualization
+* Pandas (Python for Data Analysis)
+* Mining Twitter via API
+
+
