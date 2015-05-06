@@ -13,3 +13,47 @@ JSON (JavaScript Object Notation) is a lightweight data-interchange formate - a 
 * Can be passed between applications
 * Easy for machines to parse and generate
 * Passed through applications as strings and converted into native objects per language
+
+APIs (Application Programming Interface) allow people to interact with the structures of an application:
+* get
+* put
+* delete
+* update
+* ...
+
+Best practices for APIs are to use RESTful principles.
+* REST: Representational State Transfer (REST)
+
+* Collection URIs encompass all resources at a URI
+  - http://example.com/resources/
+* Element URIs only encompass the resource designated by the URI
+  - http://example.com/resources/item17
+
+RESTful API:
+* Base URL
+* An interactive media type (usually JSON)
+* Operation (GET, PUT, POST, DELETE)
+* Driven by http requests
+
+=== Introduction to Relational Databases ===
+ETL:
+* Extract data
+* Transform data
+* Load data
+
+Databases are a structured data source optimized for efficient retrieval and storage.
+* Relational databases have tables which represent individual entities or objects
+* Tables have a predefined schema (rules that tell it what columns exist and what they look like)
+* Each table should have a primary key (unique identifer for that row); it can also have a foreign key, which links it to another table
+
+We could technically repeat all user information on each row: this is called denormalization.
+Normalization occurs when data is stored into many, smaller tables that can be joined by their common keys.
+
+/* TODO(jaydelatorre):
+ *   LEARN: NoSQL databases
+ *     http://www.thoughtworks.com/insights/blog/nosql-databases-overview */
+
+=== Visualization ===
+d3.js (JavaScript library for data visualization)
+
+
