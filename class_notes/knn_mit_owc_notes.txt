@@ -1,0 +1,5 @@
+=== K Nearest Neighbors ===
+Decision boundaries: result of creating perpendicular bisectors between points in a plane representing objects in a featurespace
+* If something is similar in one respect, it's likely to be similar in other respects (i.e., applying precedent)
+
+
