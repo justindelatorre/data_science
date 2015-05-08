@@ -1,5 +1,16 @@
-=== K Nearest Neighbors ===
+=== K Nearest Neighbors (MIT Open Courseware) ===
+Source: https://www.youtube.com/watch?v=09mb78oiPkA
+
 Decision boundaries: result of creating perpendicular bisectors between points in a plane representing objects in a featurespace
 * If something is similar in one respect, it's likely to be similar in other respects (i.e., applying precedent)
+
+* Euclidean distance compared to existing data can sometimes present problems
+* Another solution then would be to measure the cosine of the angle of the vector beginning at the origin as compared to that or the knowns
+  - cos theta = (sigma unknown x known) / ||unknown|| ||known||
+
+Other Resources:
+=== http://www.jiaaro.com/KNN-for-humans/ ===
+* distances in 3D: a^2 + b^2 + c^2 = d^2
+                   OR d = (a^2 + b^2 + c^2)**0.5
 
 
