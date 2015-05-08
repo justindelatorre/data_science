@@ -1,0 +1,12 @@
+CLASS NOTES:
+Today's Foci:
+* Classification Problems
+* Building Effective Classifiers
+* KNN Classification
+* Exploring & Implementing KNN Classification
+
+/* TODO(justindelatorre):
+ *   REVIEW:
+ *   - KNN using Feynman Technique (http://www.scotthyoung.com/learnonsteroids/grab/TranscriptFeynman.pdf)
+
+
