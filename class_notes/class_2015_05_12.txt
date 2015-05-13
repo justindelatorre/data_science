@@ -1,2 +1,43 @@
 CLASS NOTES:
 Today's Foci:
+* Introduction to Probability
+* Naive Bayesian Classification
+* Naive Bayes in Python (Lab)
+
+=== Introduction to Probability ===
+The probability of an event A is denoted P(A), where the probability is a value between 0 and 1.
+
+Sample space: set of all possible events, i.e, event A, event B, ..., event Z
+* The probability of the sample space is 1
+  - P(A) + P(B) + ... + P(Z) = 1
+
+The _intersection_ of two events A and B is called the "joint probability" of A and B, or P(AB).
+
+Conditional probability: the probability of some event A given that event B occurred
+* P(A|B) = P(AB) / P(B)
+  - The intersection of A and B divided by B
+  - Represents the probability that both A and B happen, derived if B is given
+
+Independent events do not affect each others' probabilities.
+* P(A|B) = P(A)
+  => P(A|B) = P(AB) / P(B) = P(A) = P(A) * P(B)
+
+Bayes' Theorem (BT): P(A|B) = P(B|A) x P(A) / P(B)
+* Often, we are given a few of the values in the equation above, so we can derive other values algebraically.
+
+Interpretations of Probability:
+* frequentist: an event's limiting frequency across a large number of trials
+* Bayesian: the chance an event will occur regardless of how many times it has occurred in the past
+
+=== Naive Bayesian Classification ===
+In classification, BT allows us to determine the probability of a record belonging to a class, given the data we observe.
+
+* Likelihood function: joint probability of a feature given that the record belongs to a class
+* Prior probability: likelihood of a record belonging to a class before the data is taken into account
+* Normalization constant: divisor in BT; usually considered after the fact
+* Posterior probability: likelihood of a record belonging to a class after the data is taken into account
+
+The _training phase_ of the model involves computing the Likelihood Function (conditional probability of each feature given each class).
+The _prediction phase_ involves computing the posterior probability of each class given the observed features, and choosing the class with the highest probability.
+
+
