@@ -4,3 +4,38 @@ Today's Foci:
 * Polynomial Regression
 * Regularization
 * Implementing Multiple Regression and Polynomial Regression in Python
+
+=== Introduction to Regression ===
+Regression: functional relationship between input and response variables
+* Simple linear regression: y = a + mx + b => y - a = mx + b
+  - y: response
+  - x: input
+  - a: y-intercept
+  - m: regression coefficient (slope) / model parameter
+  - b: x-intercept/residual (prediction error)
+
+How do we fit a regression model to a dataset?
+* Minimize the sum of squared residuals (b^2)
+
+=== Polynomial Regression ===
+Polynomial regression model: y = a + mx + nx^2 + b
+* Is the above model still linear?
+  - Yes; it's linear in m and n
+  - One problem: the x^n values are highly-correlated (multicollinear)
+
+How do we work around multicollinearity?
+* Replace correlated predictors with uncorrelated predictors
+
+=== Regularization ===
+An overfit model matches the noise in the data, rather than the signal
+
+How do we define the complexity of a model?
+* Define complexity as a function of the size of the coefficients (m, n, etc.)
+  - Option 1: sum(abs(m)) => "L1-norm"
+  - Option 2: sum(m^2) => "L2-norm"
+
+Regularization: method of preventing overfittingby explicityly controlling model complexity
+* L1 regularization: min(||y - xm||^2 + lambda||x||)
+* L2 regularization: min(||y - xm||^2 + lambda||x||^2)
+
+
