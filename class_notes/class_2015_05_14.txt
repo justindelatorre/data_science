@@ -1,0 +1,6 @@
+CLASS NOTES:
+Today's Foci:
+* Introduction to Regression
+* Polynomial Regression
+* Regularization
+* Implementing Multiple Regression and Polynomial Regression in Python
