@@ -1,6 +1,6 @@
 #Talk the Walk: Political Alignment and Inaugural Addresses
 
-<div align="center"><img src="http://dandelion-films.com/barack-obama-meme-tumblr-17.jpeg"></img></div>
+<div align="center"><img src="http://29.media.tumblr.com/tumblr_lltzgnHi5F1qzib3wo1_400.jpg"></img></div>
 
 **Project Goal:**
 
