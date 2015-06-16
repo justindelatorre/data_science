@@ -1,6 +1,6 @@
 # Project Milestone 3: First Draft
 
-<img src="hilary_notimpressed.jpg">
+<div align="center"><img src="hilary_notimpressed.jpg"></div>
 
 The notebook I'm submitting for this milestone contains all cumulative work until this point, and includes explanations of any roadblocks I've encountered and changes I've made as a result:
 
