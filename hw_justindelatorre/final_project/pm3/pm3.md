@@ -4,7 +4,7 @@
 
 The notebook I'm submitting for this milestone contains all cumulative work until this point, and includes explanations of any roadblocks I've encountered and changes I've made as a result:
 
-PM3: <a href="https://github.com/justindelatorre/data_science/blob/master/hw_justindelatorre/final_project/pm3/pm3-first_draft-justindelatorre.ipynb">IPython Notebook</a>
+PM3: <a href="https://github.com/justindelatorre/data_science/blob/master/hw_justindelatorre/final_project/pm3/pm3-first_draft2-justindelatorre.ipynb">IPython Notebook</a>
 
 For reference, I've included the IPython Notebook for the prior milestone. Its contents can be found within the PM3 notebook as well, however.
 
