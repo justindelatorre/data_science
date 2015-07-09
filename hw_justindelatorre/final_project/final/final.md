@@ -4,6 +4,7 @@
 Presented by: Jay de la Torre, GA Data Science, DAT_SF_14
 
 [IPython Notebook](https://github.com/justindelatorre/data_science/blob/master/hw_justindelatorre/final_project/final/experimental.ipynb)
+<br>
 [Presentation](https://docs.google.com/presentation/d/1hqCxSM7eK4TrvJif3Q3HnzlUz_logggklqWhUgO0lkc/present?slide=id.p)
 
 ###Problem Statement
@@ -13,10 +14,8 @@ After going through a few stages of data wrangling and training and testing unsu
 
 ###Obtaining the Data
 Both the inaugural address and State of the Union speech text were downloaded as <code>.txt</code> files from Project Gutenberg:
-<ul>
-<li>[Inaugural Addresses](http://www.gutenberg.org/cache/epub/925/pg925.txt)</li>
-<li>[States of the Union](http://www.gutenberg.org/cache/epub/5050/pg5050.txt)</li>
-</ul>
+[Inaugural Addresses](http://www.gutenberg.org/cache/epub/925/pg925.txt)
+[States of the Union](http://www.gutenberg.org/cache/epub/5050/pg5050.txt)
 
 ###Data Munging
 
