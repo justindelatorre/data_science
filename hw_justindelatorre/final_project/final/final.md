@@ -41,12 +41,31 @@ Exploratory analysis unearthed some interesting observations, but ultimately did
 
 I also used <code>idmax()</code> to find out what the highest-value or -count tokens were for each religious denomination and party, but there was far too much overlap among groups to infer anything significantly useful for modeling.
 
+Latent Dirichlet Allocation (LDA) was a technique and package that I wish I had used to its full potential. At a superficial level, I was able to surface the most apparent unigram and multigram topic clusters within the full corpus of speech text, then map those topic clusters to individual presidents, which was promising but led nowhere due to a lack of follow-through on my part. In researching LDA, I discovered that it could also be a powerful feature engineering and reduction tool, especially for large corpora of text like news journals, but unfortunately I was unable to implement it for that purpose in this project.
+
 Another tool I used for initial exploration was <code>[WordCloud](https://github.com/amueller/word_cloud)</code>, a package that allows for the flexible creation of word cloud-like visualizations based on token frequency. I only played with it briefly, but will likely continue to explore its functionality in future iterations of this project and others.
 
+###Training and Testing Models
+As I alluded to earlier, my initial attempts at training and testing multinomial Naïve Bayes models on my first data set went poorly.
 
+I started by using <code>train_test_split</code> to split the DataFrames between features and labels (of which there were two: religion and party). In order for the <code>MultinomialNB</code> instances to properly evaluate the data, the religion and party labels needed to be encoded into numerical categories, which I did during the feature engineering phase.
 
-###Training, Testing, and Validating Models
+After passing the data through the models, I was only able to achieve accuracy scores of 0.09 (party classification) for both the unigram and multigram tokens, and a slightly better 0.18 (party classification) for unigram tf-idf. Sad panda.
 
-###Challenges and Triumphs
+The second data set proved to be much better, at least at first glance. Armed with larger DataFrames - albeit inflated with replicated, slightly different data from the originals - I was able to achieve the following accuracy scores:
 
-###Lessons Learned
+<ul>
+<li>Unigram tokens - party: 1.0 | religion: 0.874</li>
+<li>Multigram tokens - party: 1.0 | religion: 0.896</li>
+<li>Unigram tf-idf - party: 0.946 | religion: 0.881</li>
+<li>Multigram tf-idf - party: 0.976 | religion: 0.908</li>
+</ul>
+
+These results are promising, but should be approached with caution. I'll explain below.
+
+###Takeaways
+Despite encouraging accuracy scores during my second attempt, I believe that the second set of accuracy scores should be taken with a grain of salt for a few reasons. First, the additional data are all generated artificially, and I am wary of the effects of fabricating data on model accuracy, even data that are very similar to the original. Next, the perfect accuracy values for the token DataFrames are likely a result of the same data simply being repeated over and over again, as random variance was not introduced into these DataFrames during replication.
+
+Moving forward, I hope to extend this project by applying the models to outside data: presidential speech text from <i>The West Wing</code> and to President Barack Obama's speeches (both samples that have quirks of their own to consider as well).
+
+Even in light of these hesitations and shortcomings, I'm pleased with the results of the project, as I was able to create a data set from raw text, rather than beginning from a pre-packaged one, and learned a ton about data munging - often mentioned as one of the more significant and important tasks in Data Science - in the process. In addition, I've developed a strong interest in text mining and natural language processing, and hope to pursue it either as a hobby or professionally in the future.
