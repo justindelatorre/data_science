@@ -14,7 +14,9 @@ After going through a few stages of data wrangling and training and testing unsu
 
 ###Obtaining the Data
 Both the inaugural address and State of the Union speech text were downloaded as <code>.txt</code> files from Project Gutenberg:
+<br>
 [Inaugural Addresses](http://www.gutenberg.org/cache/epub/925/pg925.txt)
+<br>
 [States of the Union](http://www.gutenberg.org/cache/epub/5050/pg5050.txt)
 
 ###Data Munging
